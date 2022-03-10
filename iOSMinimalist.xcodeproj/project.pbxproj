@@ -14,7 +14,6 @@
 		7D5E3CD22750FF2E00CE4E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5E3CD02750FF2E00CE4E40 /* LaunchScreen.storyboard */; };
 		7D5E3CDB275104B800CE4E40 /* ScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5E3CDA275104B800CE4E40 /* ScrollerViewController.swift */; };
 		7D5E3CDE2751053D00CE4E40 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5E3CDD2751053D00CE4E40 /* Demo.swift */; };
-		7D5E3CE12751084700CE4E40 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5E3CE02751084700CE4E40 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		7D5E3CD32750FF2E00CE4E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5E3CDA275104B800CE4E40 /* ScrollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerViewController.swift; sourceTree = "<group>"; };
 		7D5E3CDD2751053D00CE4E40 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
-		7D5E3CE02751084700CE4E40 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 		7D5E3CC42750FF2D00CE4E40 /* iOSMinimalist */ = {
 			isa = PBXGroup;
 			children = (
-				7D5E3CDF2751083400CE4E40 /* Extensions */,
 				7D5E3CD92751049200CE4E40 /* View Controllers */,
 				7D5E3CC52750FF2D00CE4E40 /* AppDelegate.swift */,
 				7D5E3CC72750FF2D00CE4E40 /* SceneDelegate.swift */,
@@ -87,14 +84,6 @@
 				7D5E3CDD2751053D00CE4E40 /* Demo.swift */,
 			);
 			path = Scroller;
-			sourceTree = "<group>";
-		};
-		7D5E3CDF2751083400CE4E40 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				7D5E3CE02751084700CE4E40 /* UIView+Extensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D5E3CE12751084700CE4E40 /* UIView+Extensions.swift in Sources */,
 				7D5E3CDB275104B800CE4E40 /* ScrollerViewController.swift in Sources */,
 				7D5E3CDE2751053D00CE4E40 /* Demo.swift in Sources */,
 				7D5E3CCA2750FF2D00CE4E40 /* DemoChooserViewController.swift in Sources */,

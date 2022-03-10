@@ -16,5 +16,5 @@ This project currently requires the iOS `14.0` runtime.
 
 Demo name | Demonstrates |UI library
 --- | --- | -- |
-Demo Chooser | `UITableView` | UIKit
-Scroller | `UIScrollView` | UIKit
+[Demo Chooser](<iOSMinimalist/View Controllers/DemoChooserViewController.swift>) | `UITableView` | UIKit
+[Scroller](<iOSMinimalist/View Controllers/Scroller>) | `UIScrollView` | UIKit
